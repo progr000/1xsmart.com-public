@@ -1,0 +1,10 @@
+# m h  dom mon dow   command
+0 5 * * * find /home/vbox/gitlab/backup/ -type f -mtime +30 -delete
+0 4 * * * gitlab-rake gitlab:backup:create &> /dev/null
+#0 5 * * * sshpass -p vboxp2p scp `find /home/vbox/gitlab/backup/ -type f -mtime -1` vbox@ip1.2nat.biz:/home/vbox/gitlab/backup/gitlab_backup.tar
+0 */1 * * * ntpdate pool.ntp.org
+#*/1 * * * * sed -i -e 's/"$/<br>/g' /var/www/html/simple.2nat.biz/simple.2nat.biz.*.html
+#0 5 * * * sshpass -p gitlab2ackup scp `find /home/vbox/gitlab/backup/ -type f -mtime -1` gitlabackup@ip1.2nat.biz:/home/gitlabackup/backup/gitlab_backup.tar
+0 4 * * * /bin/bash /root/ssl-cert-check/ssl-cert-check -f ssldomains -x 5 | grep Valid &>/dev/null || $(echo "ssl cert 2nat.biz Expiring 5 days" | sendxmpp -n -u monit -p monit -j bymix.biz jabber@b$
+12 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
+*/1 * * * * /bin/bash /home/config_jitsi-meet-stable-5390-3/jibri/create_symbol_links.sh &>/dev/null

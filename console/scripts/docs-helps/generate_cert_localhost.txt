@@ -1,0 +1,17 @@
+1. сначала ставим 
+sudo apt install libnss3-tools
+
+2. ставим
+apt install linuxbrew-wrapper
+
+3. затем
+brew install mkcert
+
+4. тут скрипт
+/home/linuxbrew/.linuxbrew/Cellar/mkcert/1.4.3/bin/mkcert
+
+5. установит в хром центры сертификации локалхост
+mkcert -install
+
+6. сгенерирует серт для нашего локального домена
+./mkcert "smartsing.net.my"

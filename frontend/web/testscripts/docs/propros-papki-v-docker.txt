@@ -1,0 +1,18 @@
+Hi!
+I was in the same situation and could not find any solution.
+Finally what worked for me is:
+
+Create a folder on your linux server with .crt and .key certificates for example in /opt/mycert
+
+Edit the file /opt/docker-jitsi-meet/docker-compose.yml by adding at the end of the VOLUMES section the following line (WITHOUT quotes):
+“- /opt/certificates:/config/keys:Z”
+
+docker-compose down
+
+rm -rf ~/.jitsi-meet-cfg
+
+docker-compose up -d
+
+Hope this can help you
+
+Bye!

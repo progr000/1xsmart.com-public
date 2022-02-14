@@ -1,0 +1,23 @@
+<?php
+return [
+    'During_this_time_lesson' => "At this time, you have already scheduled a lesson with the student {user}. Contact support to change class times.",
+    'Date_in_past' => "This date has passed",
+    'Wrong_form_data' => "Invalid form data",
+    'interlocutor_not_hear' => "Your interlocutor cannot hear you. Please turn on the microphone.",
+    'interlocutor_not_see' => "Your interlocutor does not see you. Please turn on the camera.",
+    'student_disconnected' => "The student is disconnected.",
+    'teacher_connected' => "The teacher is connected.",
+    'student_connected' => "The student is connected.",
+    'teacher_disconnected' => "The teacher is disconnected.",
+    'You_ended_session' => "You have ended your session.",
+    'turned_off_microphone' => "Your interlocutor turned off the microphone.",
+    'turned_on_microphone' => "Your interlocutor turned on the microphone.",
+    'turned_off_camera' => "Your interlocutor turned off the camera.",
+    'turned_on_camera' => "Your interlocutor turned on the camera.",
+    'internal_error' => "An internal server error occurred.",
+    'Lost_socket' => "Lost socket connection. <br /> The connection is being reestablished...",
+    'Socket_error' => "Socket connection error!",
+    'Saved' => "Saved",
+    'is_for_student_payment' => "You are a teacher.<br />This form is for student payment.<br />It is visually informative for you and you do not need to pay.",
+    'Waiting_schedule' => "Waiting for schedule load... Please try again.",
+];

@@ -1,0 +1,15 @@
+[Unit]
+Description = Socket for smartsing.net.my
+Requires=network.target
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/nodejs /home/www/smartsing-member/websocket/wss-server.js
+Type=simple
+User=www-data
+Group=www-data
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

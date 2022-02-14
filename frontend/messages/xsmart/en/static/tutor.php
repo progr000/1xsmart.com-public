@@ -1,0 +1,45 @@
+<?php
+return [
+    'title' => "Tutor {tutor_name}",
+
+    'No_video_present' => "No video present",
+    'Discipline_' => "Discipline:",
+    'Native_speaker_' => "Native speaker:",
+    'Can_teach_children_' => "Can teach children:",
+    'Reviews_' => "Reviews:",
+    'Lessons_' => "Lessons:",
+    'hour' => "hour",
+    'Schedule_a_lesson' => "Schedule a lesson",
+    'Contact_the_tutor' => "Contact the tutor",
+
+    'Schedule' => "Schedule",
+    'Expand_schedule' => "Expand the schedule",
+    'Timezone_' => "Timezone:",
+
+    'Testimonials' => "Testimonials",
+    'Leave_review' => "Leave a review",
+
+    'Credit_Card' => "Credit Card",
+    'You_going_book_lesson' => "You are going to book the lesson with tutor ",
+    'reviews' => "{count} reviews",
+    'Lesson_details' => "Lesson details:",
+    'Time_' => "Time:",
+    'Lesson_duration_' => "Lesson duration:",
+    'Total_' => "Total:",
+    'Proceed_checkout' => "Proceed to checkout",
+    'Guarantee' => "100% Satisfaction Guarantee",
+
+    'Loading' => "Loading reviews...",
+    'No_reviews' => "No reviews",
+    'You_have_no_lesson_this_teacher' => "You have not had a class with this teacher.<br />You can leave a review about the teacher with whom you had classes.",
+    'You_already_leave_review' => "You have already left a review about this teacher.",
+    'Your_mark_' => "Your mark:",
+    'very_bad' => "very bad",
+    'bad' => "bad",
+    'so_so' => "so-so",
+    'good' => "good",
+    'excellent' => "excellent",
+    'Review_text' => "Review text",
+    'Send' => "Send",
+    '' => "",
+];

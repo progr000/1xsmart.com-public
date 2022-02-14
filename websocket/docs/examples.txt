@@ -1,0 +1,8 @@
+1
+https://learn.javascript.ru/websockets
+
+2
+https://habr.com/ru/post/82140/
+
+3
+https://stackoverflow.com/questions/22429744/how-to-setup-route-for-websocket-server-in-express/32705838

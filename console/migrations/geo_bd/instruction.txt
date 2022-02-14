@@ -1,0 +1,9 @@
+https://github.com/x88/i18nGeoNamesDB
+
+unzip i18n_GeoPgSqlDump_v0.4.zip
+
+-----------------------------
+gunzip geo.dump.sql.gz
+
+psql -U smartsing -h localhost -q -f ./geo.dump.sql smartsing
+

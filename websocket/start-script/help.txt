@@ -1,0 +1,3 @@
+https://linuxrussia.com/systemd-create-own-unit.html
+
+https://www.shellhacks.com/ru/systemd-service-file-example/

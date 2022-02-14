@@ -1,0 +1,720 @@
+.form-group.has-error input {
+    border-color: #ff0000 !important;
+}
+.form-group.has-error textarea {
+    border-color: #ff0000 !important;
+}
+
+.form-group.has-success input {
+    *border-color: #1BAA3A !important;
+    background-image: url(../images/tick-white.svg);
+    background-size: 14px 11px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 30px) 25px;
+    padding-right: 55px;
+}
+
+.main-menu__link._current {
+    color: #CCCCCC;
+    pointer-events: none;
+}
+.page-header__link._current {
+    color: #CCCCCC;
+    pointer-events: none;
+}
+.page-footer__links ._current {
+    color: #CCCCCC;
+    pointer-events: none;
+}
+.secondary-menu__link._current {
+    color: #CCCCCC;
+    pointer-events: none;
+}
+.user-controls__menu-link._current {
+    color: #8C8C8C;
+    pointer-events: none;
+}
+.header-ava {
+    width: 36px;
+    height: 36px;
+}
+.profile-user_additional_info {
+    overflow: hidden;
+}
+
+.profile-video__add-btn {
+    margin-bottom: 20px;
+}
+
+.profile-video__remove-btn {
+}
+
+.field-profileform-user_price_peer_hour p {
+    margin-top: 75px;
+    display: block;
+    position: absolute;
+    min-width: 400px;
+    font-size: 12px;
+}
+
+.has-error p.help-block-error {
+    color: #ff0000;
+    font-size: 10px;
+}
+
+
+.find-tutor-progress-container {
+    text-align: center;
+    display: none;
+}
+.find-tutor-progress-container img {
+    width: 200px;
+}
+
+
+/* pagination */
+.own-pagination ul.pages li.pages__item a { color: #000; }
+.own-pagination ul.pages li.pages__item:hover a { color: #fff; }
+.own-pagination ul.pages li.pages__item--current a { color: #fff; }
+.own-pagination  ul.pages li.pages__item--next:hover a:before,
+.own-pagination  ul.pages li.pages__item--next:hover span:before {
+    border-color: transparent transparent transparent #fff;
+}
+.own-pagination  ul.pages li.pages__item--prev:hover a:before,
+.own-pagination  ul.pages li.pages__item--prev:hover span:before {
+    border-color: transparent #fff transparent transparent;
+}
+
+
+.own-pagination ul.pages li.pages__item--prev:before {
+    content: unset;
+    display: unset;
+    width: unset;
+    height: unset;
+    border-style: unset;
+    border-width: unset;
+    border-color: unset;
+}
+.own-pagination  ul.pages li.pages__item--prev a,
+.own-pagination  ul.pages li.pages__item--prev span {
+    line-height: 0;
+}
+.own-pagination ul.pages li.pages__item--prev a:before,
+.own-pagination ul.pages li.pages__item--prev span:before{
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3px 3px 3px 0;
+    border-color: transparent #8C8C8C transparent transparent;
+}
+
+
+.own-pagination ul.pages li.pages__item--next:before {
+    content: unset;
+    display: unset;
+    width: unset;
+    height: unset;
+    border-style: unset;
+    border-width: unset;
+    border-color: unset;
+    margin-left: unset;
+}
+.own-pagination  ul.pages li.pages__item--next a,
+.own-pagination  ul.pages li.pages__item--next span {
+    line-height: 0;
+}
+.own-pagination  ul.pages li.pages__item--next a:before,
+.own-pagination  ul.pages li.pages__item--next span:before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 3px 0 3px 3px;
+    border-color: transparent transparent transparent #8C8C8C;
+    margin-left: 1px;
+}
+
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.no-video-tutor {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background: #CCCCCC;
+    text-align: center;
+    vertical-align: middle;
+    *margin: auto;
+    *display: table-cell;
+}
+.no-video-tutor p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.dashboard-schedule__next-class span.dashboard-clear {
+    color: #1B1B1B;
+}
+
+/*
+#schedule-tutor-active-popup .schedule__booking-time._disabled span,
+#schedule-tutor-active-popup .schedule__booking-time._free span {
+    display: none;
+}
+*/
+
+.schedule-teacher-dashboard .schedule__booking-time {
+    cursor: pointer;
+}
+
+.schedule:after {
+    display: none;
+}
+
+li.pages__item--current_ a.pages__item {
+    background-color: #1B1B1B;
+    color: #ffffff;
+}
+
+li.pages__item--next_ span,
+li.pages__item--prev_ span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    min-width: 40px;
+    height: 40px;
+    border: 1px solid #8C8C8C;
+    margin: 0 5px;
+    padding: 0 15px;
+    border-radius: 20px;
+    color: #1B1B1B;
+    transition: none;
+    flex: 0 0 auto;
+}
+
+table thead th.bold {
+    font-weight: 600 !important;
+}
+th.desc .table-sort-btn:before {
+    display: none;
+}
+th.asc .table-sort-btn:after {
+    display: none;
+}
+.results-empty {
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+
+.full_additional_server_info .params-tbl__row span:last-child { overflow-wrap: anywhere; }
+.primary-btn--neutral.locked {
+    color: #aaaaaa;
+    background-color: #E7E7E7;
+}
+
+.modal__content.alert-content {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px
+}
+.modal__inner.pretty-confirm,
+.modal__inner.pretty-alert {
+    max-width: unset;
+}
+.alert-content .form-footer {
+    display: unset;
+}
+.after-introduce-ava {
+    width: 80px;
+    height: 80px;
+}
+b.no-bold {
+    font-weight: normal;
+    display: unset;
+}
+.tutor-teaser__ava.teacher_ava {
+    width: 100px;
+    height: 100px;
+}
+
+.step__choice--time .check-text-wrap input[type=radio]:checked+label {
+    color: #aaaaaa;
+    border: 3px solid #aaaaaa;
+}
+.step__choice--time .check-text-wrap input[type=radio]:hover+label {
+    background-color: #ffffff;
+    border: 1px solid #1075af;
+    color: #1B1B1B
+}
+.step__choice--time .check-text-wrap input[type=radio]._active:hover+label {
+    *border: 1px solid #1075af;
+    *color: #cccccc;
+}
+
+.step__choice--time .check-text-wrap input[type=checkbox]+label:hover {
+    background-color: #ffffff;
+    border: 1px solid #1075af;
+    color: #1B1B1B
+}
+.step__choice--time .check-text-wrap input[type=checkbox]:checked+label:hover {
+    background-color: #1075af;
+    color: #aaaaaa;
+    border: 3px solid #aaaaaa;
+}
+
+.set-schedule-steps .inline-ava {
+    width: 30px;
+    height: 30px;
+}
+
+.dashboard-schedule__next-class span.no-block {
+    display: unset !important;
+}
+
+.schedule__booking-time._disabled {
+    *pointer-events: unset;
+}
+.schedule-student-dashboard .schedule__booking-time._disabled {
+    pointer-events: none;
+}
+.social-auth__links.member .social-auth__link {
+    background-color: #1f75af;
+}
+
+.chat__user._has-new .chat__user-ava {
+    position: relative;
+}
+.chat__user._has-new .chat__user-ava:before {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid #1B1B1B;
+    background-color: #FFD24C;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 50%;
+}
+
+.modal--chat .chat {
+    *min-height: 600px;
+}
+.modal--chat .chat .chat-messages-container {
+    min-height: 460px;
+    margin-bottom: 10px;
+    border: 1px dashed #e7e7e7;
+    padding: 3px;
+}
+.chat__message-input.error {
+    border: 1px solid #ff0000;
+}
+.chat__user._hidden {
+    display: none !important;
+}
+.chat__message-text._found {
+    font-weight: bold;
+}
+.chat__message._hidden {
+    display: none;
+}
+
+.chat__user-ava {
+    background-color: unset;
+    background-image: unset;
+}
+@media (max-width: 700px) {
+    /* width: fit-content; */
+    #upload-profile-photo-modal {
+        width: fit-content;
+    }
+}
+
+.photo-disabled button,
+.photo-enabled button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 481px) {
+    .js-select-my-height .selectize-input {
+        height: 50px;
+        border-radius: 25px;
+    }
+    .selectize-input.dropdown-active {
+        border-radius: 25px 25px 0 0;
+    }
+}
+.ss-content .ss-list {
+    max-height: 200px !important;
+}
+.selectize-dropdown-content {
+    max-height: 200px;
+}
+.selectize-dropdown.lng-level-select {
+    margin-left: unset;
+    margin-top: unset;
+}
+
+#add-edit-student-popup ._hidden {
+    display: none;
+}
+.table-controls a {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+.becoming-steps__step a {
+    color: #1B1B1B;
+}
+
+.required-photo.has-error {
+    color: #ff0000;
+}
+.checkboxes-required.has-error {
+    color: #ff0000;
+}
+.location-required.has-error {
+    color: #ff0000;
+}
+.required-notif.form-has-error {
+    color: #ff0000;
+}
+
+.schedule__timezone .static-tz {
+    margin-top: 10px;
+    white-space: nowrap;
+}
+@media (max-width: 460px) {
+    .schedule__timezone .static-tz {
+        margin-top: unset;
+    }
+    .schedule__timezone span.static-tz {
+        margin-top: 12px;
+    }
+}
+.schedule__booking-time._locked-out-of-date {
+    background-color: #ffeded;
+    pointer-events: none;
+}
+.schedule__booking-time._locked-out-of-date._disabled {
+    background-color: #e7e7e7 !important;
+}
+/*
+.schedule__booking-time.lesson_scheduled {
+    background-color: #317ec7;
+    color: #ffffff;
+    cursor: pointer
+}
+.schedule__booking-time.lesson_scheduled._disabled {
+    color: #ffffff !important;
+    cursor: pointer !important;
+}
+*/
+/*
+.tutor-desc.ww {
+    word-wrap: break-word;
+}
+.tutor-card__description.ww {
+    word-wrap: break-word;
+    max-width: 580px
+}
+@media (max-width: 640px) {
+    .tutor-card__description.ww {
+        max-width: 330px
+    }
+}
+*/
+
+
+
+/* cookie-info */
+.cookie-info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .85);
+    color: #ffffff;
+    padding: 20px;
+    font-size: 14px;
+    z-index: 9999;
+    transition: transform .25s;
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    display: none;
+}
+.cookie-info.opened {
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+}
+.cookie-info__text {
+    margin-right: auto;
+    line-height: 1.5em;
+}
+.cookie-info__close-btn {
+    margin-left: 20px;
+}
+.cookie-info .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.cookie-info .icon-info {
+    width: 22px;
+    height: 22px;
+    fill: #ffffff;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+
+    .cookie-info {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cookie-info__text {
+        font-size: 13px;
+    }
+    .cookie-info__close-btn {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100px;
+    }
+    .cookie-info .container {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    .cookie-info .icon-info {
+        display: none;
+    }
+
+}
+
+.cookie-info__close-btn {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    height: 30px;
+    line-height: 16px;
+}
+.cookie-info__close-btn:hover {
+    background-color: #CCCCCC;
+}
+@media (max-width: 480px) {
+    .cookie-info__close-btn {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        width: 25%;
+    }
+    .cookie-info__text {
+        width: 70%;
+    }
+}
+
+.user-controls__btn._has-new:before {
+    content: attr(data-total_count_new_opponents);
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    right: 1px;
+    top: 1px;
+}
+
+.js-open-notify._has-new:before {
+    content: attr(data-total_count_new_notifications);
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    right: 1px;
+    top: 1px;
+}
+
+#terms-of-use-popup .modal__body {
+    padding: 70px 30px 20px;
+}
+
+#terms-of-use-popup iframe {
+    width: 100%;
+    background-color: #ffffff;
+    min-height: 400px;
+}
+.content.small-width {
+    width: unset;
+}
+
+.filter__input-wrap.has-error .selectize-input {
+    border: 1px solid #ff0000;
+}
+.page-header .auth-btn {
+    width: unset;
+}
+
+.schedule__booking-time.is-free {
+    background-color: #55B76E;
+}
+.schedule__booking-time.is-free._disabled {
+    background-color: #e7e7e7;
+    border: 1px solid #f7f7f7;
+    border-right: 0;
+    border-bottom: 0;
+}
+.schedule__booking-time._active:before {
+    border: unset;
+}
+.schedule__booking-time--free:before {
+    border: unset;
+}
+.schedule__booking-time._disabled {
+    border: 1px solid #f7f7f7;
+    border-right: 0;
+    border-bottom: 0;
+}
+.requisites-info {
+    margin: -15px 0 20px 0;
+}
+.transactions-table__tr.outgoing {
+    background-color: #ffeff0;
+}
+.transactions-table__tr.incoming {
+    background-color: #eeffe6;
+}
+
+input[type=checkbox].switch-checkbox[readonly] + label {
+    pointer-events: none;
+}
+div.class-room-locked {
+    color: #cccccc;
+    text-align: center;
+    *margin-top: -30px;
+}
+a.adm-control-btn .svg-icon {
+    fill: #8C8C8C;
+}
+a.adm-control-btn:hover .svg-icon {
+    fill: #1f75af !important;
+}
+
+.check-text-wrap input[type=checkbox]+label {
+    background-color: #439F5A;
+    color: #ffffff;
+}
+.check-text-wrap input[type=checkbox][disabled]+label {
+    background-color: #eeeeee;
+    /*color: #8C8C8C;*/
+    color: #dddddd;
+    pointer-events: none;
+}
+
+.check-text-wrap input[type=checkbox][disabled]+label:before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 100%;
+    background-image: url(../images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: .6;
+}
+
+.testimonial__ava_50x50 {
+    width: 50px;
+    height: 50px;
+}
+.testimonials-empty {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+#review-form textarea.has-error,
+#review-form .active-rating-wrap.has-error {
+    border: 1px solid #ff0000;
+}
+
+/*
+.selectize-control.select-can-teach-children:after {
+    content: 'Choose';
+    width: 76px;
+    height: 30px;
+    margin: 0 0 0 10px;
+    border-radius: 18px;
+    background-color: #1f75af;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    color: #ffffff;
+    border: 0;
+    transition: background-color .25s;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+*/
+
+.settings-section-or {
+    text-align: center;
+    font-weight: 600;
+    margin: -25px 0 -25px 0
+}
+.settings-sidebar-section-or {
+    text-align: center;
+    font-weight: 600;
+    margin: -20px 0 5px 0
+}
+@media (min-width: 1201px) {
+    .settings-main .form-section>.settings-section-or {
+        display: none;
+    }
+}
+.becoming-steps__note {
+    color: #FF0000;
+    font-size: 15px;
+}
+.tooltip {
+    z-index: 999;
+}
+
+@media (max-width: 640px) {
+    .tutor-card__rate-level {
+        margin-left: 32px;
+    }
+}
+.no-results-tutors {
+    text-align: center;
+}
+.chat__message-submit-btn {
+    width: unset;
+}
